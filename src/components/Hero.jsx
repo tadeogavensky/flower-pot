@@ -18,10 +18,10 @@ export const Hero = () => {
           initial={{ opacity: 0, x: -300 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.9 }}
-          className="flex flex-col gap-4 max-w-xl"
+          className="flex flex-col gap-4 max-w-xl  "
         >
-          <p className="text-4xl md:text-6xl font-bold ">
-            We will help you grow your flowery projects
+          <p className="text-4xl md:text-6xl font-bold  text-white tracking-wider ">
+            We will help you grow your <span className="text-[#f64944] leading-relaxed ">flowery</span> projects
           </p>
           <p className="text-base">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore
@@ -44,6 +44,7 @@ export const Hero = () => {
       <motion.div
         initial={{ opacity: 0, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
         transition={{ duration: 0.3 }}
         className="flex flex-col items-center"
       >

@@ -5,7 +5,7 @@ export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="p-6 border-b-[1px] border-gray-200 w-full relative  flex items-center justify-between md:justify-evenly">
+    <nav className="p-6 shadow-md w-full fixed top-0 z-50 bg-white flex items-center justify-between md:justify-evenly">
       <h1>LOGO</h1>
 
       <ul className="hidden md:flex items-center gap-8">
