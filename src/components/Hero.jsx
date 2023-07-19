@@ -10,7 +10,7 @@ export const Hero = () => {
       <motion.div
         initial={{ opacity: 0, x: -300 }}
         animate={{ opacity: 1, x: 0 }}
-        transition={{ duration: 0.5 }}
+        transition={{ duration: 0.9 }}
         className="flex flex-col gap-4 max-w-xl"
       >
         <p className="text-4xl md:text-6xl font-bold ">
@@ -27,7 +27,7 @@ export const Hero = () => {
       <motion.div
         initial={{ opacity: 0, scale: 0 }}
         animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 0.5 }}
+        transition={{ duration: 0.9 }}
         className="w-full md:w-1/2"
       >
         <img src={rose} alt="rose" className="object-contain" />
