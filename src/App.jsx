@@ -1,14 +1,15 @@
 import { Element } from "react-scroll";
 import { Navbar } from "./components/Navbar";
+import { Hero } from "./components/Hero";
+import Layout from "./components/Layout";
 
 function App() {
   return (
     <>
-    <Navbar/>
-      <Element id="home" name="home">
-
-
-      </Element>
+      <Navbar />
+      <Layout>
+        <Hero />
+      </Layout>
     </>
   );
 }
